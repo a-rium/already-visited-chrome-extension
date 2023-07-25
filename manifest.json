@@ -4,7 +4,7 @@
     "description": "Notifies users if the page they arrived to has been visited before.",
     "version": "1.0",
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "background.ts"
     },
     "permissions": [
         "history",
@@ -12,6 +12,6 @@
     ],
     "action": {
       "default_popup": "hello.html",
-      "default_icon": "hello_extension.png"
+      "default_icon": "icon.png"
     }
   }

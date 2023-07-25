@@ -3,7 +3,7 @@ chrome.history.onVisited.addListener(url => {
         const options: chrome.notifications.NotificationOptions = {
             title: "Warning!",
             message: "You have already visited this page.",
-            iconUrl: "./extension_icon.png",
+            iconUrl: "./icon.png",
             type: "basic"
         };
         chrome.notifications.create(null, options);
