@@ -1,6 +1,6 @@
 chrome.history.onVisited.addListener(url => {
     if (url.visitCount > 1) {
-        const options = {
+        const options: chrome.notifications.NotificationOptions = {
             title: "Warning!",
             message: "You have already visited this page.",
             iconUrl: "./extension_icon.png",

@@ -1,0 +1,22 @@
+{
+  "name": "already-visited-chrome-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension that notifies the user if the newly entered page has been already visited before.",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-rium/already-visited-chrome-extension.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-rium/already-visited-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/a-rium/already-visited-chrome-extension#readme",
+  "dependencies": {
+    "chrome-types": "^0.1.218"
+  }
+}
